@@ -1,27 +1,58 @@
-
-
 /* import component css files */
-@import '../css/components/contact_footer.css';
-@import '../css/components/skills.css';
+@import "../css/components/contact_footer.css";
+@import "../css/components/skills.css";
 
 /* Main style */
+/* COLORS */
 
 /* CSS Document */
-body{
-	margin:0px;
-	padding: 0px;
-	/* font-family: 'Syne Mono', monospace; */
-    /* font-family: 'Roboto Condensed', sans-serif; */
-    font-family: 'Roboto Slab', serif
-	
+body {
+  background-color: black !important;
 }
-*{
-	box-sizing:border-box;
-	scroll-behavior: smooth;
+.container {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  background-color: black !important;
+
+  /* font-family: 'Syne Mono', monospace; */
+  /* font-family: 'Roboto Condensed', sans-serif; */
+  font-family: "Roboto Slab", serif;
+  color: #e67e22;
 }
-ul{
-	list-style:none;
+
+.logo-central {
+  margin-top: 10vh;
 }
-a{
-	text-decoration:none;
+.contact {
+  margin-top: 50px;
+}
+.textavant {
+  margin-top: 20px;
+  font-size: 50px;
+  font-family: "Racing Sans One", cursive;
+}
+.contact a {
+  text-decoration: none;
+  color: #e67e22;
+  border: solid #e67e22;
+  border-radius: 14px;
+  padding: 10px 10px 12px 10px;
+}
+.contact a:hover {
+  color: black;
+background-color: #e67e22;
+font-weight: bolder;
+}
+
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
 }
