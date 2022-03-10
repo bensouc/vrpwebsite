@@ -5,17 +5,32 @@
 /* Main style */
 /* COLORS */
 
-@media only screen and (max-width: 767px) {
+
+/* responsive portrait */
+@media only screen and (max-width: 767px) and (orientation: portrait) {
   /* la regle s'applique pour des ecrans aux tailles > 767px */
   .logo-central{
-      margin-top: 10vh !important;
+
       height: 80px !important;
   }
   .logo-central-img {
 height: 80px !important;
     width: 80px;
     background-image: url("https://res.cloudinary.com/bensoucdev/image/upload/v1646901471/VROADSTUDIO/logoVRS-V1_aa8x0l.png") !important;
-    background-size: contain !important;
+    /* background-size: contain !important; */
+  }
+}
+/* responsive landscape */
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+  .logo-central{
+
+      height: 80px !important;
+  }
+  .logo-central-img {
+height: 80px !important;
+    width: 315px;
+    background-image: url("https://res.cloudinary.com/bensoucdev/image/upload/v1646386019/VROADSTUDIO/eqfu6pwgxuzpbq5k6lgkykuqb61a.png") !important;
+    /* background-size: contain !important; */
   }
 }
 
