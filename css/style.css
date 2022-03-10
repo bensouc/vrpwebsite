@@ -22,17 +22,15 @@ height: 80px !important;
 /* CSS Document */
 body {
   background-color: black !important;
+  font-family: "Roboto Slab", serif !important;
+  color: #e67e22 !important;
 }
 .main {
   text-align: center;
   margin: 0px;
   padding: 0px;
-  background-color: black !important;
-
-  /* font-family: 'Syne Mono', monospace; */
+   /* font-family: 'Syne Mono', monospace; */
   /* font-family: 'Roboto Condensed', sans-serif; */
-  font-family: "Roboto Slab", serif;
-  color: #e67e22;
 }
 
 .logo-central {
