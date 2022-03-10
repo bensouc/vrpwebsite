@@ -10,7 +10,7 @@
 @media only screen and (max-width: 767px) and (orientation: portrait) {
   /* la regle s'applique pour des ecrans aux tailles > 767px */
   .logo-central{
-
+margin-top: 5vh !important;
       height: 80px !important;
   }
   .logo-central-img {
@@ -23,7 +23,7 @@ height: 80px !important;
 /* responsive landscape */
 @media only screen and (max-width: 767px) and (orientation: landscape) {
   .logo-central{
-
+margin-top: 5vh !important;
       height: 80px !important;
   }
   .logo-central-img {
