@@ -43,7 +43,7 @@ body {
 .main {
   text-align: center;
   margin: 0px;
-  padding: 0px;
+  padding: 0px 8px;
    /* font-family: 'Syne Mono', monospace; */
   /* font-family: 'Roboto Condensed', sans-serif; */
 }
