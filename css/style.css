@@ -5,11 +5,25 @@
 /* Main style */
 /* COLORS */
 
+@media only screen and (max-width: 767px) {
+  /* la regle s'applique pour des ecrans aux tailles > 767px */
+  .logo-central{
+      margin-top: 10vh !important;
+      height: 80px !important;
+  }
+  .logo-central-img {
+height: 80px !important;
+    width: 80px;
+    background-image: url("https://res.cloudinary.com/bensoucdev/image/upload/v1646901471/VROADSTUDIO/logoVRS-V1_aa8x0l.png") !important;
+    background-size: contain !important;
+  }
+}
+
 /* CSS Document */
 body {
   background-color: black !important;
 }
-.container {
+.main {
   text-align: center;
   margin: 0px;
   padding: 0px;
@@ -23,6 +37,14 @@ body {
 
 .logo-central {
   margin-top: 10vh;
+  height: 173px;
+}
+.logo-central-img {
+  margin: 0 auto;
+  max-width: 684px;
+  height: 173px;
+  background-image: url("https://res.cloudinary.com/bensoucdev/image/upload/v1646386019/VROADSTUDIO/eqfu6pwgxuzpbq5k6lgkykuqb61a.png");
+  background-size: cover;
 }
 .contact {
   margin-top: 50px;
@@ -41,10 +63,9 @@ body {
 }
 .contact a:hover {
   color: black;
-background-color: #e67e22;
-font-weight: bolder;
+  background-color: #e67e22;
+  font-weight: bolder;
 }
-
 
 * {
   box-sizing: border-box;
