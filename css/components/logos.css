@@ -1,0 +1,21 @@
+.logos {
+  display: flex !important;
+  justify-content: space-around;
+  margin: 15px;
+  /* text-align: center;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+}
+
+.logo {
+  margin: 0 10px;
+}
+
+.logo i {
+  color: #e67e22 !important;
+  font-size: 60px;
+}
+
+.logo img {
+  height: 60px;
+}
