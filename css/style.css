@@ -92,3 +92,21 @@ ul {
 a {
   text-decoration: none;
 }
+
+.logos{
+  display: flex !important;
+  justify-content: space-around;
+}
+
+.logo{
+  margin: 0 10px;
+}
+
+.logo i{
+  color: #e67e22 !important;
+  font-size: 60px;
+}
+
+.logo img{
+  height: 60px ;
+}
