@@ -1,16 +1,33 @@
 .logos {
+  /* border-top: thin solid #838080; */
   display: flex !important;
   justify-content: space-around;
   margin: 15px;
+  padding-top: 15px;
   /* text-align: center;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
 }
 
+@media only screen and (max-width: 650px) {
+  .logos {
+    display: flex !important;
+    justify-content: center;
+
+    flex-direction: column;
+    align-content: center;
+    align-items: stretch;
+  }
+}
+
 .logo {
   margin: 0 10px;
 }
-
+@media only screen and (max-width: 650px) {
+  .logo {
+    margin: 10px 10px;
+  }
+}
 .logo i {
   color: #e67e22 !important;
   font-size: 60px;

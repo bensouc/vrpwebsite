@@ -5,10 +5,17 @@
 @import "../css/components/footer.css";
 @import "../css/components/navbar.css";
 @import "../css/components/logos.css";
+@import "../css/components/project_cards.css";
 
 /* Main style */
-/* COLORS */
+#site {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  /* justify-content:space-around; */
 
+}
+/* COLORS */
 
 /* responsive portrait */
 @media only screen and (max-width: 767px) and (orientation: portrait) {
@@ -22,6 +29,9 @@
     width: 80px;
     background-image: url("https://res.cloudinary.com/bensoucdev/image/upload/v1646901471/VROADSTUDIO/logoVRS-V1_aa8x0l.png") !important;
     /* background-size: contain !important; */
+  }
+  .projects{
+  grid-template-columns: 1fr ;
   }
 }
 /* responsive landscape */
@@ -40,9 +50,11 @@
 
 /* CSS Document */
 body {
+  margin: 0 auto;
   background-color: black !important;
   font-family: "Roboto Slab", serif !important;
   color: #e67e22 !important;
+  
 }
 .main {
   text-align: center;
@@ -64,6 +76,8 @@ body {
   background-size: cover;
 }
 .contact {
+  border-bottom: thin solid #838080;
+  height: 50px;
   margin-top: 50px;
 }
 .textavant {
