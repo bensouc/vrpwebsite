@@ -1,9 +1,10 @@
 .logos {
-  /* border-top: thin solid #838080; */
+  border-top: thin solid #838080;
+  width: 100%;
   display: flex !important;
   justify-content: space-around;
-  margin: 15px;
-  padding-top: 15px;
+  margin: 15px 0;
+  padding-top: 25px;
   /* text-align: center;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
@@ -17,6 +18,8 @@
     flex-direction: column;
     align-content: center;
     align-items: stretch;
+
+    /* border: thin solid ; */
   }
 }
 
@@ -26,6 +29,9 @@
 @media only screen and (max-width: 650px) {
   .logo {
     margin: 10px 10px;
+  }
+  .lewagon-logo{
+            margin: 10px auto;
   }
 }
 .logo i {
