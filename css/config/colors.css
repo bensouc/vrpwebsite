@@ -1,0 +1,7 @@
+.dark-mode{
+  color: #d5dfff !important;
+  border-color: #d5dfff !important;
+}
+.project-icones.dark-mode i{
+  color: #e67e22 !important;
+}
