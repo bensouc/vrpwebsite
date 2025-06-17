@@ -17,7 +17,8 @@
   .footer {
     border-top: thin solid #838080;
     padding: 15px 0;
-
+    background: #000000;
+    align-items: center;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;

@@ -14,10 +14,10 @@
   .logos {
     display: flex !important;
     justify-content: center;
-
-    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
     align-content: center;
-    align-items: stretch;
+    align-items: center;
 
     /* border: thin solid ; */
   }
