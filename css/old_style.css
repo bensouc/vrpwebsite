@@ -1,0 +1,140 @@
+/* import component css files */
+@import "../css/components/contact_footer.css";
+/* @import "../css/components/skills.css"; */
+@import "../css/components/opening.css";
+@import "../css/components/footer.css";
+@import "../css/components/navbar.css";
+@import "../css/components/logos.css";
+@import "../css/components/project_cards.css";
+@import "../css/components/btn.css";
+@import "../css/config/colors.css";
+
+/* Main style */
+#site {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  /* justify-content:space-around; */
+}
+/* COLORS */
+
+/* responsive portrait */
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+  /* la regle s'applique pour des ecrans aux tailles > 767px */
+  .logo-central {
+    margin-top: 5vh !important;
+    height: 80px !important;
+  }
+  .logo-central-img {
+    height: 80px !important;
+    width: 80px;
+    background-image: url("../images/logoVRS-V1.png") !important;
+    /* background-size: contain !important; */
+  }
+    .logo-central-img.dark-mode {
+    height: 80px !important;
+    width: 80px;
+    background-image: url("../images/logoVRS-V1_bandw.png") !important;
+    /* background-size: contain !important; */
+  }
+  .projects {
+    grid-template-columns: 1fr;
+  }
+}
+/* responsive landscape */
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+  .logo-central {
+    margin-top: 5vh !important;
+    height: 80px !important;
+  }
+  .logo-central-img {
+    height: 80px !important;
+    width: 315px;
+    background-image: url("../images/logoVRoad-V1.png") ;
+    /* background-size: contain !important; */
+  }
+  .logo-central-img.dark-mode{
+    background-image: url("../images/logoVRoad-V1-betw.png");
+  }
+}
+
+/* CSS Document */
+body {
+  margin: 0 auto;
+  background-color: black !important;
+  font-family: "Roboto Slab", serif ;
+  color: #e67e22 !important ;
+}
+.main {
+  min-height: 100vh;
+  text-align: center;
+  margin: 0px;
+  padding: 0px 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* font-family: 'Syne Mono', monospace; */
+  /* font-family: 'Roboto Condensed', sans-serif; */
+}
+
+.logo-central {
+  margin-top: 10vh;
+  height: 173px;
+}
+.logo-central-img {
+  margin: 0 auto;
+  max-width: 684px;
+  height: 173px;
+  background-image: url("../images/logoVRoad-V1.png");
+  background-size: cover;
+}
+.logo-central-img.dark-mode{
+background-image: url("../images/logoVRoad-V1-betw.png") ;
+}
+.contact {
+  /* border-bottom: thin solid #838080; */
+  height: 50px;
+  margin-top: 50px;
+}
+.textavant {
+  margin-top: 20px;
+  font-size: 50px;
+  font-family: "Racing Sans One", cursive;
+}
+.contact a {
+  text-decoration: none;
+  color: #e67e22;
+  border: solid #e67e22;
+  border-radius: 14px;
+  padding: 10px 10px 12px 10px;
+  font-size: 30px;
+}
+.contact a:hover {
+  color: black;
+  background-color: #e67e22;
+  font-weight: bolder;
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none ;
+}
+
+.lewagon-logo {
+  background-color: white ;
+  border-radius: 4px;
+  border: black;
+  /* padding: 1px; */
+  padding-right: 5px;
+  min-width: 118px;
+}
+
+i{
+  color: #e67e22;
+}

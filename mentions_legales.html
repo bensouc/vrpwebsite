@@ -1,117 +1,128 @@
+<!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="icon" type="image/png" href="images/logoVRS-V1.png" />
-
-    <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto+Condensed&family=Roboto+Slab:wght@400;900&family=Syne+Mono&display=swap"
-      rel="stylesheet"
-    />
-
-    <!-- Bootstrap  -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Fontawesome  -->
-    <script
-      src="https://kit.fontawesome.com/aa9dc78317.js"
-      crossorigin="anonymous"
-    ></script>
-
-  <!-- META TAGS -->
-  <title>Mentions légales | Vroad Studio - Agence Web à Nantes</title>
-  <meta name="description"
-    content="Mentions légales de Vroad Studio, agence web à Nantes : éditeur, contact, hébergement, crédits et informations légales." />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mentions légales | Vroad Studio</title>
+  <meta name="description" content="Mentions légales de Vroad Studio, agence web à Nantes : éditeur, contact, hébergement, crédits et informations légales." />
   <meta name="keywords" content="mentions légales, agence web Nantes, Vroad Studio, contact, hébergement, crédits" />
   <meta name="author" content="Vroad Studio">
   <link rel="canonical" href="https://vroadstudio.fr/mentions_legales.html" />
-
-  <!-- Facebook Open Graph data -->
+  
+  <!-- Open Graph / Facebook -->
   <meta property="og:title" content="Mentions légales | Vroad Studio - Agence Web à Nantes" />
-  <meta property="og:type" content="website" />
+  <meta property="og:description" content="Mentions légales de Vroad Studio, agence web à Nantes : éditeur, contact, hébergement, crédits et informations légales." />
+  <meta property="og:image" content="https://res.cloudinary.com/bensoucdev/image/upload/v1646909032/VROADSTUDIO/ensemble_caputurewp_evx8ov.png" />
   <meta property="og:url" content="https://vroadstudio.fr/mentions_legales.html" />
-  <meta property="og:image"
-    content="https://res.cloudinary.com/bensoucdev/image/upload/v1646909032/VROADSTUDIO/ensemble_caputurewp_evx8ov.png" />
-  <meta property="og:description"
-    content="Mentions légales de Vroad Studio, agence web à Nantes : éditeur, contact, hébergement, crédits et informations légales." />
+  <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Vroad Studio" />
 
+  <link rel="icon" type="image/png" href="images/logoVRS-V1.png" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+  
+  <!-- Bootstrap  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-46217196-2"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-46217196-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag("js", new Date());
+    gtag("config", "UA-46217196-2");
+  </script>
+</head>
 
-      gtag("config", "UA-46217196-2");
-    </script>
-  </head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo"><img src="images/logoVRoad-V1.png" alt="Logo Vroad Studio" width="150"></div>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+      <ul class="nav-links">
+        <li><a href="index.html#projets">Projets</a></li>
+        <li><a href="index.html#about">Qui je suis</a></li>
+        <li><a href="index.html#partenaires">Partenaires</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <body>
-    <div class="main d-flex align-items-center flex-column ">
-      <div class="top mt-5 w-50 text-start">
+  <main>
+    <section class="mentions-section">
+      <div class="mentions-container">
+        <h1>Mentions légales</h1>
+        
+        <div class="mentions-content">
+          <div class="mentions-block">
+            <h2><i class="fa-solid fa-building"></i> Éditeur</h2>
+            <p>Le site internet accessible à l'adresse <strong>https://www.vroadstudio.fr/</strong> est édité par Benoît Moret entrepreneur individuel.</p>
+            <div class="contact-info">
+              <p><i class="fa-solid fa-location-dot"></i> 47 rue des Frères Amieux - 44100 Nantes</p>
+              <p><i class="fa-solid fa-at"></i> contact@vroadstudio.fr</p>
+              <p><i class="fa-solid fa-id-card"></i> SIRET : 91102592200012</p>
+            </div>
+          </div>
 
+          <div class="mentions-block">
+            <h2><i class="fa-solid fa-user-tie"></i> Directeur de publication</h2>
+            <p>Le directeur de la publication du site internet est <strong>Benoît Moret</strong>.</p>
+          </div>
 
-        <h1>Editeur</h1>
-        <p>
-          Le site internet accessible à l’adresse
-          https://www.vroadstudio.fr/ est édité par Benoît Moret entrepreneur
-          individuel, 47 rue des Frêres Amieux - 44100
-          Nantes.
-        </p>
+          <div class="mentions-block">
+            <h2><i class="fa-solid fa-server"></i> Hébergement</h2>
+            <p>Ce site est hébergé sur <strong>GitHub Pages</strong>.</p>
+          </div>
 
+          <div class="mentions-block">
+            <h2><i class="fa-solid fa-image"></i> Crédits</h2>
+            <p>Images de <strong>vectorjuice</strong> sur Freepik</p>
+          </div>
+        </div>
 
-        Le directeur de la publication du site internet est Benoît Moret.
-
-        email: contact@vroadstudio.fr  <br /><br />
-        SIRET : 91102592200012<br /><br />
-        <!-- Numéro d'identification à la TVA :<br /> -->
-        Hébergement : github<br /><br />
-        Crédits: Images de vectorjuice sur Freepik
-        <br />
-        <br />
-        <a href="index.html"> <i class="fa-solid fa-circle-left"></i> Retour</a>
+        <a href="index.html" class="back-btn">
+          <i class="fa-solid fa-arrow-left"></i>
+          Retour à l'accueil
+        </a>
       </div>
-      <div class="footer" id="footer">
-        <div class="legal-link">
-          <a href="./mentions_legales.html">Mentions Légales</a>
-          <!-- <a href="./cgv.html">CGV</i></a> -->
-        </div>
-        <div class="legal-link">
-          <i class="fa-solid fa-mobile"></i> 06 07 33 14 05 /
-          <i class="fa-solid fa-location-dot"></i> 47 rue des Frères
-          Amieux-44100 Nantes /
-          <i class="fa-solid fa-at"></i> contact@vroadstudio.fr
-        </div>
-        <div class="footer-copyright">
-          Des productions faites avec <i class="fas fa-heart"></i> à
-          <img
-            src="https://res.cloudinary.com/bensoucdev/image/upload/v1646128278/logoVRoad-V1_lmqcji.png"
-            style="height: 24px"
-            alt=" logo vroadstudio"
-          />
-        </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div>
+        <a href="./mentions_legales.html">Mentions Légales</a> |
+        <a href="./cgv.html">CGV</a>
+      </div>
+      <div>
+        © 2024 Vroad Studio — Fait avec <i class="fas fa-heart"></i> à Nantes
+      </div>
+      <div class="footer-socials">
+        <a href="https://github.com/VRoad-Studio" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/benoit-moret" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
       </div>
     </div>
-  </body>
+  </footer>
+
+  <script>
+    // Fermer le menu mobile quand on clique sur un lien
+    document.addEventListener('DOMContentLoaded', function() {
+      const navLinks = document.querySelectorAll('.nav-links a');
+      const navToggle = document.getElementById('nav-toggle');
+      
+      navLinks.forEach(link => {
+        link.addEventListener('click', function() {
+          navToggle.checked = false;
+        });
+      });
+    });
+  </script>
+</body>
 </html>

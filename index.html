@@ -31,16 +31,11 @@
     content="https://res.cloudinary.com/bensoucdev/image/upload/v1646909032/VROADSTUDIO/ensemble_caputurewp_evx8ov.png" />
 
   <link rel="icon" type="image/png" href="images/logoVRS-V1.png" />
-
-  <!-- STYLE + JS -->
   <link rel="stylesheet" href="css/style.css" />
-  <!-- Google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto+Condensed&family=Roboto+Slab:wght@400;900&family=Syne+Mono&display=swap"
-    rel="stylesheet" />
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Inter:wght@400;600&display=swap"
+    rel="stylesheet">
   <!-- Bootstrap  -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
@@ -49,387 +44,430 @@
     crossorigin="anonymous"></script>
   <!-- Fontawesome  -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-46217196-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-
-    gtag("config", "UA-46217196-2");
-  </script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
 </head>
 
 <body>
-  <div class="mode-box">
-    <label for="modeBtn">
-      <div class="bullet"></div>
-    </label>
-    <input type="checkbox" id="modeBtn" class="hidden" />
-  </div>
-  <!-- <div class="mode-btn" id="modeBtn">
-    change css mode
-  </div> -->
-  <main class="main">
-    <div class="logo-central">
-      <div class="logo-central-img"></div>
-    </div>
-    <div class="mt-5 textavant">A vos côtés !!!</div>
-    <div class="mt-5">
-      Une agence web tournée vers le produit et l'expérience utilisateur<br />
-      <br />Une agence conseil en organisation et financement de la R&d & de
-      l'innovation
-    </div>
-    <div class="contact mb-5">
-      <a href="mailto:contact@vroadstudio.fr?subject=VRoad Studio - Demande d'informations" , target="blank">Contactez
-        nous</a>
-    </div>
-    <div class="projects">
-      <h1>Nos réalisations</h1>
-      <!-- Ensemble -->
-      <div class="project-card">
-        <div class="project-icones">
-          <i class="fa-regular fa-gem"></i>
-          <i class="fa-solid fa-graduation-cap"></i>
-          <i class="fa-brands fa-html5"></i>
-          <i class="fa-brands fa-node-js"></i>
-          <i class="fa-brands fa-stripe"></i>
-          <i class="fa-solid fa-file-pdf"></i>
-        </div>
-        <div class="card-img">
-          <div id="carousel-ensemble-img" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <header>
+    <nav class="navbar">
+      <div class="logo"><img src="images/logoVRoad-V1.png" alt="Logo Vroad Studio" width="150"></div>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+      <ul class="nav-links">
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#about">Qui je suis</a></li>
+        <li><a href="#partenaires">Partenaires</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <img src="images/logoVRS-V1.png" alt="Logo Vroad Studio" class="hero-logo" />
+      <h1>Agence web, Conseil & Formation</h1>
+      <p>
+        <span class="tagline-block">🖥️ Développement web & apps</span>
+        <span class="tagline-block">🎓 Enseignement & formation</span>
+        <span class="tagline-block">💡 Financement de l'innovation</span>
+      </p>
+      <a href="#contact" class="cta">Contactez-nous</a>
+    </section>
+    <section id="projets" class="projects-section">
+      <h2>Nos réalisations</h2>
+      <div class="projects">
+        <!-- Ensemble -->
+        <div class="project-card">
+          <div id="carousel-ensemble" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item ">
-                <img src="/images/ensemble/ensemble-class result.png" class="d-block w-100"
-                  alt="illustration application Ensemble les résultats" />
-              </div>
-              <div class="carousel-item">
-                <img src="/images/ensemble/ensemble-edition.png" class="d-block w-100"
-                  alt="illustration application Ensemble l'édition" />
-              </div>
-              <div class="carousel-item">
-                <img src="/images/ensemble/ensemble-eval.png" class="d-block w-100"
-                  alt="illustration application Ensemble, évaluation" />
-              </div>
-              <div class="carousel-item">
-                <img src="/images/ensemble/ensemble-home.png" class="d-block w-100"
-                  alt="illustration application Ensemble, home page" />
-              </div>
-              <div class="carousel-item">
-                <img src="/images/ensemble/ensemble-student.png" class="d-block w-100"
-                  alt="illustration application Ensemble, la page étudiant" />
-              </div>
-              <div class="carousel-item">
-                <img src="/images/ensemble/ensemble-wp.png" class="d-block w-100"
-                  alt="illustration application Ensemble, un plan de travail" />
-              </div>
               <div class="carousel-item active">
-                <img src="/images/ensemble/home.png" class="d-block w-100"
-                  alt="illustration application Ensemble, home mobile" />
+                <img src="images/ensemble/home.png" class="d-block w-100" alt="Ensemble home mobile" />
+              </div>
+              <div class="carousel-item">
+                <img src="images/ensemble/ensemble-class result.png" class="d-block w-100" alt="Ensemble résultats" />
+              </div>
+              <div class="carousel-item">
+                <img src="images/ensemble/ensemble-edition.png" class="d-block w-100" alt="Ensemble édition" />
+              </div>
+              <div class="carousel-item">
+                <img src="images/ensemble/ensemble-eval.png" class="d-block w-100" alt="Ensemble évaluation" />
+              </div>
+              <div class="carousel-item">
+                <img src="images/ensemble/ensemble-home.png" class="d-block w-100" alt="Ensemble home page" />
+              </div>
+              <div class="carousel-item">
+                <img src="images/ensemble/ensemble-student.png" class="d-block w-100" alt="Ensemble étudiant" />
+              </div>
+              <div class="carousel-item">
+                <img src="images/ensemble/ensemble-wp.png" class="d-block w-100" alt="Ensemble plan de travail" />
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-ensemble-img"
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-ensemble"
               data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
+              <span class="visually-hidden">Précédent</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel-ensemble-img"
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-ensemble"
               data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
+              <span class="visually-hidden">Suivant</span>
             </button>
           </div>
-        </div>
-        <section class="card-text">
-          <h2>Ensemble</h2>
-          <div class="card-content">
-            Une plateforme collaborative destinée aux professeurs des écoles
-            pour la création de plan de travail individualisé pour les élèves.
-            En co-développement avec une école primaire de REP+ à nantes.
+          <div class="project-icons-modern ps-3">
+            <span class="tech-badge " data-tooltip="Ruby on Rails"><i class="fa-regular fa-gem"
+                aria-label="Ruby on Rails"></i></span>
+            <span class="tech-badge" data-tooltip="Éducation"><i class="fa-solid fa-graduation-cap"
+                aria-label="Éducation"></i></span>
+            <span class="tech-badge" data-tooltip="HTML5"><i class="fa-brands fa-html5" aria-label="HTML5"></i></span>
+            <span class="tech-badge" data-tooltip="Node.js"><i class="fa-brands fa-node-js"
+                aria-label="Node.js"></i></span>
+            <span class="tech-badge" data-tooltip="Stripe"><i class="fa-brands fa-stripe"
+                aria-label="Stripe"></i></span>
+            <span class="tech-badge" data-tooltip="PDF"><i class="fa-solid fa-file-pdf" aria-label="PDF"></i></span>
           </div>
-          <a href="https://app-ensemble.fr/" target="_blank">En savoir +</a>
-        </section>
-      </div>
-      <!-- simulator.weenat.com -->
-      <div class="project-card">
-        <div class="project-icones">
-          <i class="fa-regular fa-gem"></i>
-          <i class="fa-brands fa-html5"></i>
-          <i class="fa-brands fa-node-js"></i>
-          <img src="https://maplibre.org/maplibre-gl-js/docs/assets/logo.svg" alt="logo maplibre">
-          <img src="/images/icones/tailwindcss.svg" alt="logo tailwind">
+          <div class="project-content">
+            <h3>Ensemble</h3>
+            <p>Plateforme collaborative pour professeurs des écoles, co-développée avec une école REP+ à Nantes.</p>
+            <a href="https://app-ensemble.fr/" target="_blank" class="project-link">En savoir +</a>
+          </div>
         </div>
-        <div class="card-img">
-          <div id="carousel-weenat-img" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <!-- Weenat Simulateur -->
+        <div class="project-card">
+          <div id="carousel-weenat" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="/images/weenat/historic_data.png" class="d-block w-100"
-                  style="object-fit: contain; background-color: white;"
-                  alt="illustration Weenat Simulateur Agro Climatique, historique" />
+                <img src="images/weenat/historic_data.png" class="d-block w-100" alt="Weenat historique" />
               </div>
               <div class="carousel-item">
-                <img src="/images/weenat/screen-1.png" class="d-block w-100"
-                  style="object-fit: contain; background-color: white;"
-                  alt="illustration Weenat Simulateur Agro Climatique, home " />
+                <img src="images/weenat/screen-1.png" class="d-block w-100" alt="Weenat home" />
               </div>
               <div class="carousel-item">
-                <img src="/images/weenat/screen-2.png" class="d-block w-100"
-                  style="object-fit: contain; background-color: white;"
-                  alt="illustration Weenat Simulateur Agro Climatique, carte géographique" />
+                <img src="images/weenat/screen-2.png" class="d-block w-100" alt="Weenat carte" />
               </div>
               <div class="carousel-item">
-                <img src="/images/weenat/use_full_screen.png" class="d-block w-100"
-                  tyle="object-fit: contain; background-color: white;"
-                  alt="illustration Weenat Simulateur Agro Climatique, plein écran" />
+                <img src="images/weenat/use_full_screen.png" class="d-block w-100" alt="Weenat plein écran" />
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-weenat-img"
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-weenat" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Précédent</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-weenat" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Suivant</span>
+            </button>
+          </div>
+          <div class="project-icons-modern ps-3">
+            <span class="tech-badge " data-tooltip="Ruby on Rails"><i class="fa-regular fa-gem"
+                aria-label="Ruby on Rails"></i></span>
+            <span class="tech-badge" data-tooltip="HTML5"><i class="fa-brands fa-html5" aria-label="HTML5"></i></span>
+            <span class="tech-badge" data-tooltip="Node.js"><i class="fa-brands fa-node-js"
+                aria-label="Node.js"></i></span>
+            <span class="tech-badge" data-tooltip="MapLibre"><img
+                src="https://maplibre.org/maplibre-gl-js/docs/assets/logo.svg" alt="MapLibre"></span>
+            <span class="tech-badge" data-tooltip="Tailwind CSS"><img src="images/icones/tailwindcss.svg"
+                class="rounded" alt="Tailwind CSS"></span>
+          </div>
+          <div class="project-content">
+            <h3>Weenat Simulateur</h3>
+            <p>Simulateur agro-climatique pour analyser l'impact du climat sur les cultures normandes.</p>
+            <a href="https://simulator.weenat.com/" target="_blank" class="project-link">En savoir +</a>
+          </div>
+        </div>
+        <!-- IBICASA PWA -->
+        <div class="project-card">
+          <div id="carousel-ibicasa" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/ibiza_casa/iphone_ibisa.png" class="d-block w-100" alt="IBICASA iPhone" />
+              </div>
+              <div class="carousel-item">
+                <img src="images/ibiza_casa/android_ibisa.png" class="d-block w-100" alt="IBICASA Android" />
+              </div>
+              <div class="carousel-item">
+                <img src="images/ibiza_casa/install_ibisa.png" class="d-block w-100" alt="IBICASA Install" />
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-ibicasa" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Précédent</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-ibicasa" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Suivant</span>
+            </button>
+          </div>
+          <div class="project-icons-modern ps-3">
+            <span class="tech-badge" data-tooltip="PWA"><i class="fa-solid fa-mobile-screen-button"
+                aria-label="PWA"></i></span>
+            <span class="tech-badge " data-tooltip="Ruby on Rails"><i class="fa-regular fa-gem"
+                aria-label="Ruby on Rails"></i></span>
+            <span class="tech-badge" data-tooltip="HTML5"><i class="fa-brands fa-html5" aria-label="HTML5"></i></span>
+            <span class="tech-badge" data-tooltip="Node.js"><i class="fa-brands fa-node-js"
+                aria-label="Node.js"></i></span>
+          </div>
+          <div class="project-content">
+            <h3>IBICASA PWA</h3>
+            <p>Transformation d'une application web en Progressive Web App pour l'achat immobilier à Ibiza. Multilingue,
+              UX optimisée, navigation dédiée.</p>
+            <a href="https://www.ibicasa.com/" target="_blank" class="project-link">En savoir +</a>
+          </div>
+        </div>
+        <!-- Formations (une seule image) -->
+        <div class="project-card">
+          <img src="images/formations/formations.png" alt="Projet Formations" />
+          <div class="project-icons-modern ps-3">
+            <span class="tech-badge" data-tooltip="Enseignement"><i class="fa-solid fa-chalkboard-user"
+                aria-label="Enseignement"></i></span>
+            <span class="tech-badge" data-tooltip="UX/UI"><i class="fa-solid fa-pen-ruler"
+                aria-label="UX/UI"></i></span>
+            <span class="tech-badge" data-tooltip="Product Management"><i class="fa-solid fa-diagram-project"
+                aria-label="Product Management"></i></span>
+          </div>
+          <div class="project-content">
+            <h3>Formations</h3>
+            <p>Enseignement pour Le Wagon & Audencia : Bootcamp Web-Dev, UX-UI Design, Product Management, Initiation.
+            </p>
+            <a href="https://www.lewagon.com/fr/nantes" target="_blank" class="project-link">En savoir +</a>
+          </div>
+        </div>
+        <!-- E Calculateur -->
+        <div class="project-card">
+          <div id="carousel-ecalculateur" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/energy/calculateurhome.png" class="d-block w-100" alt="E Calculateur home" />
+              </div>
+              <div class="carousel-item">
+                <img src="images/energy/calculpage1mobile.png" class="d-block w-100"
+                  alt="E Calculateur page 1 mobile" />
+              </div>
+              <div class="carousel-item">
+                <img src="images/energy/calculateurhome2.png" class="d-block w-100" alt="E Calculateur home 2" />
+              </div>
+              <div class="carousel-item">
+                <img src="images/energy/calculpage2mobile.png" class="d-block w-100"
+                  alt="E Calculateur page 2 mobile" />
+              </div>
+              <div class="carousel-item">
+                <img src="images/energy/calculpage3mobile.png" class="d-block w-100"
+                  alt="E Calculateur page 3 mobile" />
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-ecalculateur"
               data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
+              <span class="visually-hidden">Précédent</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel-weenat-img"
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-ecalculateur"
               data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
+              <span class="visually-hidden">Suivant</span>
             </button>
           </div>
-        </div>
-        <section class="card-text">
-          <h2>Weenat Simulateur</h2>
-          <div class="card-content">
-            Pour <a href="https://weenat.com/">Weenat</a>, réalisation d'un simulateur agro-climatiques dédiées au
-            secteur agricole Normand. Analyser les impacts du changement climatique sur les cultures
+          <div class="project-icons-modern ps-3">
+            <span class="tech-badge " data-tooltip="Ruby on Rails"><i class="fa-regular fa-gem"
+                aria-label="Ruby on Rails"></i></span>
+            <span class="tech-badge" data-tooltip="HTML5"><i class="fa-brands fa-html5" aria-label="HTML5"></i></span>
+            <span class="tech-badge" data-tooltip="JavaScript"><i class="fa-brands fa-js"
+                aria-label="JavaScript"></i></span>
+            <span class="tech-badge" data-tooltip="Hubspot"><i class="fa-brands fa-hubspot"
+                aria-label="Hubspot"></i></span>
           </div>
-          <a href="https://simulator.weenat.com/" target="_blank">En savoir +</a>
-        </section>
+          <div class="project-content">
+            <h3>E Calculateur</h3>
+            <p>Calculateur de consommation énergétique pour camping-cars. Génération de leads et intégration Hubspot.
+            </p>
+            <a href="https://www.autonomie-camping-car.fr/" target="_blank" class="project-link">En savoir +</a>
+          </div>
+        </div>
+        <!-- CHUuut (une seule image) -->
+        <div class="project-card">
+          <img src="images/chuut/airtable_calcl.png" alt="Projet CHUuut" />
+          <div class="project-icons-modern ps-3">
+            <span class="tech-badge" data-tooltip="Excel/Calc"><i class="fa-solid fa-file-excel"
+                aria-label="Excel/Calc"></i></span>
+
+          </div>
+          <div class="project-content">
+            <h3>CHUuut</h3>
+            <p>Processus de chiffrage de devis no-code pour l'atelier CHUuut. Script LibreOffice Calc & API Airtable.
+            </p>
+            <a href="https://www.atelier-chuuut.fr/" target="_blank" class="project-link">En savoir +</a>
+          </div>
+        </div>
+        <!-- Innovation & R&D (une seule image) -->
+        <div class="project-card">
+          <img src="images/innovation/Retd.png" alt="Projet Innovation & R&D" style="object-fit:cover;" />
+          <div class="project-icons-modern ps-3">
+            <span class="tech-badge" data-tooltip="Conseil"><i class="fa-solid fa-lightbulb"
+                aria-label="Conseil"></i></span>
+            <span class="tech-badge" data-tooltip="Financement"><i class="fa-solid fa-euro-sign"
+                aria-label="Financement"></i></span>
+            <span class="tech-badge" data-tooltip="Innovation"><i class="fa-solid fa-flask"
+                aria-label="Innovation"></i></span>
+          </div>
+          <div class="project-content">
+            <h3>Innovation & R&D</h3>
+            <p>Conseil en financement et organisation de la R&D et de l'innovation. Recherche de financements,
+              accompagnement.</p>
+            <a href="mailto:contact@vroadstudio.fr?subject=VRoad Studio - Financement innovation"
+              class="project-link">Prendre contact</a>
+          </div>
+        </div>
       </div>
-      <!-- ibicasa -->
-      <div class="project-card">
-        <div class="project-icones w-100">
-          <div class="d-flex ">
-            <i class="fa-solid fa-p"></i>
-            <i class="fa-solid fa-w"></i>
-            <i class="fa-solid fa-a"></i>
+    </section>
+    <section id="about" class="about-section">
+      <div class="about-container">
+        <h2>Qui je suis ?</h2>
+        <div class="about-content">
+          <div class="about-intro">
+            <p>Développeur web passionné et entrepreneur à Nantes, je combine <strong>expertise technique</strong> et <strong>vision business</strong> pour créer des solutions digitales innovantes.</p>
           </div>
-          <div class="d-flex">
-            <i class="fa-regular"></i>
-          </div>
-
-          <i class="fa-regular fa-gem"></i>
-          <i class="fa-brands fa-html5"></i>
-          <i class="fa-brands fa-node-js"></i>
-
-        </div>
-        <div class="card-img">
-          <div id="carousel-ibiza-img" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item ">
-                <img src="/images/ibiza_casa/android_ibisa.png" class="d-block w-100"
-                  style="object-fit: contain; background-color: white;" alt="illustration application IBICASA 1" />
+          
+          <div class="about-experience">
+            <div class="experience-item">
+              <div class="experience-header">
+                <div class="experience-header-top">
+                  <i class="fa-solid fa-code"></i>
+                  <h3>Développeur Web & Entrepreneur</h3>
+                </div>
+                <span class="experience-period">2022 - Présent</span>
               </div>
-              <div class="carousel-item">
-                <img src="/images/ibiza_casa/install_ibisa.png" class="d-block w-100"
-                  style="object-fit: contain; background-color: white;" alt="illustration application IBICASA 2" />
-              </div>
-              <div class="carousel-item active">
-                <img src="/images/ibiza_casa/iphone_ibisa.png" class="d-block w-100"
-                  style="object-fit: contain; background-color: white;" alt="illustration application IBICASA 3" />
-              </div>
-
+              <p>Dirigeant de <strong>VRoad Studio</strong>, spécialisé dans la création d'applications web, le conseil en numérisation et le financement de l'innovation.</p>
             </div>
-            <button class="carousel-control-prev text-warning" type="button" data-bs-target="#carousel-ibiza-img"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon text-warning" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel-ibiza-img"
-              data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-        <section class="card-text">
-          <h2>IBICASA PWA</h2>
-          <div class="card-content">
-            Transformation d'une application web en une Progressive Web App (PWA) dédiée à l'achat de biens
-            immobiliers à Ibiza. Installable et offre une UX comparable à celle d'une application native
-
-            2. **Traduction Multilingue** : Les messages sont disponibles en anglais, espagnol et allemand, selon les
-            préférences de
-            l'utilisateur.
-
-            3. **Navigation Dédiée** : J'ai ajouté une barre de navigation (navbar) pour faciliter l'accès aux
-            différentes sections
-            de l'application.
-
-            Ces améliorations rendent l'application plus accessible, conviviale et performante pour les utilisateurs
-            internationaux.
-
-            Souhaitez-vous des détails supplémentaires sur une des fonctionnalités spécifiques ?
-          </div>
-          <a href="https://www.ibicasa.com/" target="_blank">En savoir +</a>
-        </section>
-      </div>
-
-      <div class="project-card">
-        <div class="card-img">
-          <img src="/images/formations/formations.png" alt=" illustration formations" />
-        </div>
-        <section class="card-text">
-          <h2>Formations</h2>
-          <div class="card-content">
-            Enseignement pour le Wagon ou à Audencia Business School. Bootcamp
-            Web-Dev, UX-UI Design, Product Management, Initiation.
-          </div>
-          <a href="https://www.lewagon.com/fr/nantes" target="_blank">En savoir +</a>
-        </section>
-      </div>
-
-      <div class="project-card">
-        <div class="project-icones">
-          <i class="fa-regular fa-gem"></i>
-          <!-- <i class="fa-solid fa-graduation-cap"></i> -->
-          <i class="fa-brands fa-html5"></i>
-          <i class="fa-brands fa-js"></i>
-          <i class="fa-brands fa-hubspot"></i>
-        </div>
-        <div class="card-img">
-          <div id="carousel-energy-img" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <!-- <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carousel-energy-img" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carousel-energy-img" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carousel-energy-img" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#carousel-energy-img" data-bs-slide-to="3" aria-label="Slide 4"></button>
-    <button type="button" data-bs-target="#carousel-energy-img" data-bs-slide-to="4" aria-label="Slide 5"></button>
-  </div> -->
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="/images/energy/calculateurhome.png" class="d-block h-100"
-                  alt="Illustration projet calculateur 1" />
+            
+            <div class="experience-item">
+              <div class="experience-header">
+                <div class="experience-header-top">
+                  <i class="fa-solid fa-chalkboard-user"></i>
+                  <h3>Enseignant & Batch Manager</h3>
+                </div>
+                <span class="experience-period">2022 - Présent</span>
               </div>
-              <div class="carousel-item">
-                <img src="/images/energy/calculpage1mobile.png" class="d-block h-100"
-                  alt="Illustration projet calculateur 2" />
-              </div>
-              <div class="carousel-item">
-                <img src="/images/energy/calculateurhome2.png" class="d-block h-100"
-                  alt="Illustration projet calculateur 3" />
-              </div>
-              <div class="carousel-item">
-                <img src="/images/energy/calculpage2mobile.png" class="d-block h-100"
-                  alt="Illustration projet calculateur 4" />
-              </div>
-              <div class="carousel-item">
-                <img src="/images/energy/calculpage3mobile.png" class="d-block h-100"
-                  alt="Illustration projet calculateur 5" />
-              </div>
+              <p>Enseignant au <strong>Le Wagon Nantes</strong> pour les bootcamps Web Dev (Ruby/Rails, Front-end), et Batch Manager pour accompagner les projets étudiants.</p>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-energy-img"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel-energy-img"
-              data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+            
+            <div class="experience-item">
+              <div class="experience-header">
+                <div class="experience-header-top">
+                  <i class="fa-solid fa-lightbulb"></i>
+                  <h3>Conseil en Innovation & R&D</h3>
+                </div>
+                <span class="experience-period">2015 - 2021</span>
+              </div>
+              <p>6 ans d'expérience chez <strong>FI Group</strong> en conseil pour le financement de l'innovation (CIR, subventions) auprès de PME et grands groupes.</p>
+            </div>
+
+            <div class="experience-item">
+              <div class="experience-header">
+                <div class="experience-header-top">
+                  <i class="fa-solid fa-music"></i>
+                  <h3>Pionnier du Digital Mobile</h3>
+                </div>
+                <span class="experience-period">2004 - 2012</span>
+              </div>
+              <p>8 ans dans le secteur de la <strong>distribution musicale digitale</strong> chez <strong>Digiplug</strong> et <strong>Musiwave</strong>. Gestion de la Digital Supply Chain pour Universal Music, Sony Music. Expert en formats numériques et encodage.</p>
+            </div>
+
+            <div class="experience-item">
+              <div class="experience-header">
+                <div class="experience-header-top">
+                  <i class="fa-solid fa-graduation-cap"></i>
+                  <h3>Formation Technique</h3>
+                </div>
+                <span class="experience-period">2000 - 2004</span>
+              </div>
+              <p><strong>BSc Music Technology</strong> (University of Huddersfield) et <strong>DUT Électronique & Informatique</strong> (Paris-Sud). Spécialisation en robotique et programmation microcontrôleurs.</p>
+            </div>
           </div>
-        </div>
-        <section class="card-text">
-          <h2>E Calculateur</h2>
-          <div class="card-content">
-            Conception et réalisation d'un calculateur de consommation
-            énergétique pour les camping-cars. Génération de leads et
-            alimentation du CRM Hubspot via API.
+          
+          <div class="about-skills">
+            <h3>Expertise</h3>
+            <div class="skills-grid">
+              <span class="skill-tag">Développement Web</span>
+              <span class="skill-tag">Ruby on Rails</span>
+              <span class="skill-tag">UX Design</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">PWA</span>
+              <span class="skill-tag">Conseil Innovation</span>
+              <span class="skill-tag">Formation</span>
+              <span class="skill-tag">Digital Mobile</span>
+              <span class="skill-tag">Formats Numériques</span>
+            </div>
           </div>
-          <!-- <a href="https://www.autonomie-camping-car.fr/" target="_blank"
-              >En savoir +</a -->
-          <a href="https://www.autonomie-camping-car.fr/" target="_blank">
-            < Calculateur>
+          
+          <a href="https://www.linkedin.com/in/benoit-moret/" target="_blank" class="linkedin-btn">
+            <i class="fa-brands fa-linkedin"></i>
+            Découvrir mon profil complet sur LinkedIn
           </a>
-        </section>
-      </div>
-
-      <div class="project-card">
-        <div class="project-icones">
-          <i class="fa-solid fa-file-excel"></i>
         </div>
+      </div>
+    </section>
+    <section id="partenaires" class="partners-section">
+      <h2>Partenaires</h2>
+      <div class="partners">
+        <a href="https://github.com/VRoad-Studio" target="_blank" class="partner-logo"><i
+            class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/benoit-moret" target="_blank" class="partner-logo"><i
+            class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.lewagon.com/fr/nantes" target="_blank" class="partner-logo"><img
+            src="images/logo-lewagon.svg" alt="Le Wagon"></a>
+        <a href="https://www.codeur.com/-benoit_vroadstudio" target="_blank" class="partner-logo"><img
+            src="images/codeur-com.png" alt="Codeur.com"></a>
+        <a href="https://scalingo.com/" target="_blank" class="partner-logo"><img
+            src="images/icones/scalingo-logo.png" alt="Scalingo"></a>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="contact-section">
 
-        <div class="card-img">
-          <img src="/images/chuut/airtable_calcl.png" alt="logo projet chuut" />
+        <h2>Contact</h2>
+        <form action="https://formsubmit.co/contact@vroadstudio.fr" method="POST" class="contact-form">
+          <input type="text" name="name" placeholder="Votre nom" required>
+          <input type="email" name="email" placeholder="Votre email" required>
+          <textarea name="message" placeholder="Votre message" required></textarea>
+          <input type="hidden" name="_next" value="https://tonsite.github.io/merci.html">
+          <button type="submit" class="cta">Envoyer</button>
+        </form>
+        <div class="contact-infos">
+          <p><i class="fa-solid fa-mobile-alt"></i> 06 07 33 14 05</p>
+          <p><i class="fa-solid fa-location-dot"></i> 47 rue des Frères Amieux, 44100 Nantes</p>
+          <p><i class="fa-solid fa-at"></i> contact@vroadstudio.fr</p>
         </div>
-        <section class="card-text">
-          <h2>CHUuut</h2>
-          <div class="card-content">
-            Réalisation Nocode d'un processus de chiffrage de devis pour
-            l'atelier CHuut. Développement de script Libre Office Calc <=>
-              Api-Airtable.
-          </div>
-          <a href="https://www.atelier-chuuut.fr/" target="_blank">En savoir +</a>
-        </section>
       </div>
-
-      <div class="project-card">
-        <div class="card-img">
-          <img src="/images/innovation/Retd.png" alt="Illustration R&D financement" />
-        </div>
-        <section class="card-text">
-          <h2>Innovation & R&D</h2>
-          <div class="card-content">
-            Conseil en financement et organisation de la R&D et de
-            l'innovation. Identification de besoins, recherche de
-            financements, accompagnement dans la mise en place de processus.
-          </div>
-          <a href="mailto:contact@vroadstudio.fr?subject=VRoad Studio - Financement innovation" , target="blank">Prendre
-            de contact</a>
-        </section>
-      </div>
-    </div>
-    <div class="logos">
-      <div class="logo">
-        <a href="https://github.com/VRoad-Studio"><i class="fa-brands fa-github"></i></a>
-      </div>
-      <div class="logo">
-        <a href="https://www.linkedin.com/in/benoit-moret"><i class="fa-brands fa-linkedin"></i></a>
-      </div>
-      <div class="logo lewagon-logo">
-        <a href="https://www.lewagon.com/fr/nantes">
-          <img src="/images/logo-lewagon.svg" alt="logo le wagon" />
-        </a>
-      </div>
-      <div class="logo">
-        <a href="https://www.codeur.com/-benoit_vroadstudio">
-          <img src="/images/codeur-com.png" alt=" logo codeur.com" />
-        </a>
-      </div>
-    </div>
+    </section>
   </main>
-  <footer class="footer" id="footer">
-    <div class="legal-link">
-      <a href="./mentions_legales.html">Mentions Légales</a>
-      <a href="./cgv.html">CGV</a>
-      <!-- <a href="./cgv.html">CGV</i></a> -->
-    </div>
-    <div class="legal-link">
-      <i class="fas fa-mobile-alt"></i> 06 07 33 14 05 /
-      <i class="fa-solid fa-location-dot"></i> 47 rue des Frères
-      Amieux-44100 Nantes /
-      <i class="fa-solid fa-at"></i> contact@vroadstudio.fr
-    </div>
-    <div class="footer-copyright">
-      Des productions faites avec <i class="fas fa-heart"></i> à
-      <img src="https://res.cloudinary.com/bensoucdev/image/upload/v1646128278/logoVRoad-V1_lmqcji.png"
-        style="height: 24px" alt="" />
+  <footer>
+    <div class="footer-content">
+      <div>
+        <a href="./mentions_legales.html">Mentions Légales</a> |
+        <a href="./cgv.html">CGV</a>
+      </div>
+      <div>
+        © 2024 Vroad Studio — Fait avec <i class="fas fa-heart"></i> à Nantes
+      </div>
+      <div class="footer-socials">
+        <a href="https://github.com/VRoad-Studio" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/benoit-moret" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
     </div>
   </footer>
-  </div>
-  <script src="/javascript/index.js"></script>
+  <script>
+    // Fermer le menu mobile quand on clique sur un lien
+    document.addEventListener('DOMContentLoaded', function() {
+      const navLinks = document.querySelectorAll('.nav-links a');
+      const navToggle = document.getElementById('nav-toggle');
+      
+      navLinks.forEach(link => {
+        link.addEventListener('click', function() {
+          // Fermer le menu en décochant la checkbox
+          navToggle.checked = false;
+        });
+      });
+    });
+  </script>
 </body>
 
 </html>
